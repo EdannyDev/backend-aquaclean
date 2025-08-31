@@ -32,6 +32,7 @@ npm install
 
 # 3. Crear archivo de entorno
 En la raíz del proyecto, crea un archivo .env con:
+
 MONGODB_URI=mongodb://localhost:27017/aquaDB
 PORT=5000
 JWT_SECRET=tu_secreto_jwt
