@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 // Configurar CORS con tu dominio en producción
 app.use(
   cors({
-    origin: ["https://aquaclean-app.vercel.app", "http://localhost:3000", "https://admin-aquaclean.vercel.app"],
+    origin: ["http://localhost:3000", "http://localhost:3001"], // Cambia esto a tu dominio en producción
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
