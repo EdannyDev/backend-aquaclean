@@ -15,9 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000", 
-      "http://localhost:3001", 
-      "https://aquaclean-app.vercel.app", 
-      "https://admin-aquaclean-app.vercel.app"], // Cambia esto a tu dominio en producción
+      "http://localhost:3001" ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
