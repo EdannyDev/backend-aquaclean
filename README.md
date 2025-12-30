@@ -53,6 +53,6 @@ http://localhost:5000
 - Notificaciones push: `/api/push`
 
 ## 🔗Enlaces útiles
-Web Informativa: https://github.com/EdannyDev/aquaclean-app
+Web Informativa: https://github.com/EdannyDev/frontend-aquaclean
 
-Panel Administrativo: https://github.com/EdannyDev/admin-aquaclean-app
+Panel Administrativo: https://github.com/EdannyDev/frontend-admin-aquaclean
